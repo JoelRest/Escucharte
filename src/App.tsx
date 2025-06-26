@@ -8,6 +8,7 @@ import Home from './pages/Home';
 import Information from './pages/Information';
 import Forum from './pages/Forum';
 import EmotionalAgenda from './pages/EmotionalAgenda';
+import EditProfile from './pages/EditProfile';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
                     <Route path="/information" element={<Information />} />
                     <Route path="/forum" element={<Forum />} />
                     <Route path="/agenda" element={<EmotionalAgenda />} />
+                    <Route path="/edit-profile" element={<EditProfile />} />
                   </Routes>
                 </Layout>
               </PrivateRoute>
